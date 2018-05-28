@@ -1,0 +1,145 @@
+#main-title{
+	text-align: center;
+	font-size: 30px;
+}
+html,body{
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+	width: 100%
+}
+
+#human-time-background{
+	height: 200px;
+	background-image: url(https://blogimg.ngfiles.com/395000/395103/935876827_human_evolution.gif);
+}
+
+#human-time-background p{
+	color:white;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	position: relative;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#background-overlay{
+	background-color: rgba(0,0,0,0.5);
+}
+
+nav{
+	position: relative;
+	background: grey;
+	margin-top: 0;
+	font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+
+	display:flex;
+	justify-content: flex-end;
+}
+
+nav li{
+	padding-right: 5px;
+	border-right: 1px solid black;
+}
+
+
+
+nav a{
+	text-align: center;
+	display:block;
+	color:white;
+}
+
+.social-media img{
+	position: relative;
+	display :inline-block;
+	float: right;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+
+#top-space{
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+	border-width: 0px;
+	border-bottom: 50px solid white;
+	border: black 1px solid;
+	background-color: black;
+}
+.watch-tile{
+	text-align: center;
+	display: inline-block;
+}
+
+
+.watch-tile img{
+	height,width: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.content{
+	min-height: 100px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px;
+	background-color: #D5F6FF;
+	text-align: center;
+	font-style: 'Crete Round', serif;
+	font-size: 40px;
+}
+.top-content{
+	margin: 50px;
+	padding: 50px;
+	background-color: red;
+	text-align: center;
+	font-size: 40px;
+    font-family: 'Crete Round', serif;
+}	
+
+
+
+/*footer*/
+footer{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: black;
+}
+
+
+footer nav{
+	position: relative;
+	margin-top: 0;
+	font-size: 20px;
+	font-style: 'Crete Round', serif;
+
+}
+
+footer nav ul{
+	list-style-type: none;
+	padding: 0;
+	display:flex;
+	justify-content: flex-start;
+}
+
+footer nav li{
+	padding-right: 5px;
+	border-right: 1px solid black;
+}
+
+footer nav a{
+	text-align: center;
+	display:block;
+	color:white;
+}
