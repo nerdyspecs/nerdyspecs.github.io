@@ -1,6 +1,7 @@
 #main-title{
 	text-align: center;
 	font-size: 30px;
+	clear: both;
 }
 html,body{
 	margin: 0px;
@@ -57,6 +58,11 @@ nav a{
 	color:white;
 }
 
+nav a:hover{
+	background-color: black;
+	color: white;
+}
+
 .social-media img{
 	position: relative;
 	display :inline-block;
@@ -64,6 +70,11 @@ nav a{
 	width: 30px;
 	height: 30px;
 	padding: 10px;
+}
+.video-embed{
+	margin-top: 15px;
+	padding: 40px;
+	text-align: center;
 }
 
 #top-space{
@@ -123,6 +134,7 @@ footer nav{
 	margin-top: 0;
 	font-size: 20px;
 	font-style: 'Crete Round', serif;
+	background-color: black;
 
 }
 
